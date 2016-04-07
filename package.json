@@ -1,0 +1,26 @@
+{
+  "name": "minijs",
+  "version": "1.0.0",
+  "description": "minijs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teekcode/minijs.git"
+  },
+  "keywords": [
+    "mini",
+    "js"
+  ],
+  "author": "teek <xulei-china@hotmail.com> (http://teekcode.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teekcode/minijs/issues"
+  },
+  "homepage": "https://github.com/teekcode/minijs#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
