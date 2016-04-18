@@ -40,6 +40,12 @@ module.exports = {
 	*/
 	generator: function(a) {
 		return {next: a.apply(null, [].slice.call(arguments, 1))};
-	}
+	},
 	
+	/*  
+		is a number a power of three
+	*/
+	isPowerOfThree: function(n) {
+		return /^10*$/.test(n.toString(3));
+	}	
 };
