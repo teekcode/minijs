@@ -43,7 +43,7 @@ module.exports = {
 	},
 	
 	/*  
-		is a number a power of three
+		is a number a power of three, think bigger three can be other num, such as 2, 4
 	*/
 	isPowerOfThree: function(n) {
 		return /^10*$/.test(n.toString(3));
